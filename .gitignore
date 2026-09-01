@@ -1,0 +1,29 @@
+# Segredos e credenciais locais
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Artefatos gerados
+relatorio_*.pdf
+*.log
+release/
+
+# IDE e sistema operacional
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Configuração local de agentes
+.claude/
